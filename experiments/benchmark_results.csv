@@ -1,0 +1,13 @@
+scenario,algorithm,depth,time_sec,nodes_visited,nodes_pruned,peak_mem_kb,nps,score,best_action
+Cenário 1 — Abertura Padrão (Tab. Limpo),1. Minimax Puro,2,2.25998,5432,0,28.3,2403,0.0,"Move(5, 3)"
+Cenário 1 — Abertura Padrão (Tab. Limpo),2. Alpha-Beta,2,0.37891,224,5208,21.12,591,0.0,"Move(5, 3)"
+Cenário 1 — Abertura Padrão (Tab. Limpo),3. Alpha-Beta + Ordenação,2,0.4728,224,5208,21.88,473,0.0,"Move(5, 3)"
+Cenário 1 — Abertura Padrão (Tab. Limpo),4. Alpha-Beta + Ord + TT,2,0.59125,224,5208,85.06,378,0.0,"Move(5, 3)"
+Cenário 2 — Meio-jogo com Barricadas,1. Minimax Puro,2,1.48641,4395,0,19.0,2956,-10.0,"Move(4, 4)"
+Cenário 2 — Meio-jogo com Barricadas,2. Alpha-Beta,2,0.34324,397,3998,19.61,1156,-10.0,"Move(4, 4)"
+Cenário 2 — Meio-jogo com Barricadas,3. Alpha-Beta + Ordenação,2,0.37704,201,4194,21.77,533,-10.0,"Move(4, 4)"
+Cenário 2 — Meio-jogo com Barricadas,4. Alpha-Beta + Ord + TT,2,0.42793,201,4194,75.55,469,-10.0,"Move(4, 4)"
+Cenário 3 — Final de Jogo (Disputa Reta),1. Minimax Puro,2,0.78792,4331,0,17.91,5496,-15.0,"Wall(V, 3, 3)"
+Cenário 3 — Final de Jogo (Disputa Reta),2. Alpha-Beta,2,0.20411,491,3840,19.59,2405,-15.0,"Wall(V, 3, 3)"
+Cenário 3 — Final de Jogo (Disputa Reta),3. Alpha-Beta + Ordenação,2,0.22003,261,4070,19.7,1186,-15.0,"Wall(V, 3, 3)"
+Cenário 3 — Final de Jogo (Disputa Reta),4. Alpha-Beta + Ord + TT,2,0.22203,261,4070,60.52,1175,-15.0,"Wall(V, 3, 3)"

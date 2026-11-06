@@ -1,0 +1,2 @@
+game_index,winner,winner_player_id,turns,duration_sec,red_bot,blue_bot,red_nodes_total,blue_nodes_total,red_time_total,blue_time_total,red_avg_time_turn,blue_avg_time_turn,final_red_pos,final_blue_pos,final_walls_h,final_walls_v,random_seed
+1,Azul,2,42,2.626,BotRed_D2,BotBlue_D2,4306,8971,1.375,1.251,0.0655,0.0596,"(2, 4)","(6, 1)",6,4,42
